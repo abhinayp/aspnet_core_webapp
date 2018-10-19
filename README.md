@@ -12,3 +12,5 @@ _install requirements, including node_modules_\
 
 _start the app_ \
 `sh core/run_all.sh`
+
+Open Browser - https://localhost:5001
