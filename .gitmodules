@@ -1,6 +1,0 @@
-[submodule "aspnet_core_mvc"]
-	path = aspnet_core_mvc
-	url = https://github.com/abhinayp/aspnet_core_mvc.git
-[submodule "aspnet_core_webapi"]
-	path = aspnet_core_webapi
-	url = https://github.com/abhinayp/aspnet_core_webapi.git
