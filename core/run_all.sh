@@ -6,7 +6,8 @@ tmux split-window -h -t ASPNET
 tmux send-keys -t ASPNET:0.0 "cd $SCRIPTPATH" C-m
 tmux send-keys -t ASPNET:0.0 'cd ../aspnet_core_mvc' C-m
 tmux send-keys -t ASPNET:0.0 'dotnet build' C-m
-tmux send-keys -t ASPNET:0.0 'dotnet run' C-m
+# tmux send-keys -t ASPNET:0.0 'dotnet run' C-m
+tmux send-keys -t ASPNET:0.0 'npm start' C-m
 sleep 1
 
 tmux send-keys -t ASPNET:0.1 "cd $SCRIPTPATH" C-m
